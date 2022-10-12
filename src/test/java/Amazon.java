@@ -9,7 +9,7 @@ import static utility.TabHandle.TabHandle;
 
 @Epic("Epic 100 - Landing PAge of Amazon Portal")
 @Story("Story 100 - Landing PAge of Amazon Portal")
-public class Amazon_in extends TestBase {
+public class Amazon extends TestBase {
 
     @Description("Assert Home page tittle")
     @Severity(SeverityLevel.CRITICAL)

@@ -3,11 +3,13 @@
 <suite name="Amazon Regression Test">
     <listeners>
         <listener class-name="Listeners.ExtentReport"/>
+        <listener class-name="Listeners.Retry"/>
+
     </listeners>
 
     <test name="Amazon Test" verbose="10">
         <classes>
-            <class name="Amazon_in"/>
+            <class name="Amazon"/>
         </classes>
     </test>
 </suite>

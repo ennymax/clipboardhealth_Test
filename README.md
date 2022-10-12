@@ -6,8 +6,7 @@ this Test is designed using
 
 Report Listeners
 1. Extent Report listener
-2. Allure report listener
-3. Retry Lister
+2. Retry Lister
 
 # Run Test
 To run the  test execute the testng.xml file which contains all the regression test
